@@ -144,3 +144,66 @@ Growing list of AI Safety Concepts (141 concepts).
 |Value Alignment Problem                                      |The challenge of aligning AI objectives with human values, which are pluralistic, context-dependent, and hard to quantify.   Misalignment risks catastrophic outcomes if powerful systems optimize mis-specified objectives.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |On the Opportunities and Risks of Foundation Models                                                   |Rishi Bommasani et al.                         |2022 |
 |Value Learning                                               |The process by which an AI system infers human preferences, goals, or reward functions from behavior, feedback, or observation.   Significance: It is central to AI alignment, but theoretical work shows it is underdetermined unless we make strong assumptions about human rationality.  Even with simplicity priors (Occam’s razor), the human reward function cannot be uniquely inferred - implying that normative assumptions are required to constrain value learning.                                                                                                                                                                                                                                                                                                                                                                                                                           |Occam’s razor is insufficient to infer the preferences of irrational agents                           |Stuart Armstrong et al.                        |2017 |
 |Weak-to-Strong Generalization                                |A phenomenon in which a stronger model, when trained under supervision from a weaker model (or human), generalizes beyond the limitations and errors of that supervision - demonstrating capabilities that exceed the supervisor’s. It provides an empirical framework for studying how weak supervision can elicit the full capabilities of stronger, potentially superhuman, models - an essential step toward aligning superhuman AI systems.                                                                                                                                                                                                                                                                                                                                                                                                                                                         |Weak-to-Strong Generalization: Eliciting Strong Capabilities with Weak Supervision                    |Collin Burns et al.                            |2023 |
+
+# References
+
+* Adam Jones. (2024). [**Can we scale human feedback for complex AI tasks? An intro to scalable oversight**](https://bluedot.org/blog/scalable-oversight-intro?utm_source=bluedot-impact). *BlueDot Impact*.
+* Adam Jones. (2024). [**What is AI alignment?**](https://bluedot.org/blog/what-is-ai-alignment?utm_source=bluedot-impact). *BlueDot Impact*.
+* Adam Jones. (2024). [**What risks does AI pose?**](https://bluedot.org/blog/ai-risks?utm_source=bluedot-impact). *BlueDot Impact*.
+* Akbir Khan et al. (2024). [**Debating with More Persuasive LLMs Leads to More Truthful Answers**](https://arxiv.org/abs/2402.06782). *arXiv preprint arXiv:2402.06782*.
+* Alex Kantrowitz. (2023). [**The Horrific Content a Kenyan Worker Had to See While Training ChatGPT**](https://slate.com/technology/2023/05/openai-chatgpt-training-kenya-traumatic.html). *Slate*.
+* Alexander Matt Turner et al. (2021). [**Optimal Policies Tend To Seek Power**](https://arxiv.org/abs/1912.01683). *NeurIPS 2021*.
+* Alexandre Ramé et al. (2024). [**WARM: On the Benefits of Weight Averaged Reward Models**](https://arxiv.org/abs/2401.12187). *arXiv preprint arXiv:2401.12187*.
+* Andy Zou et al. (2023). [**Universal and Transferable Adversarial Attacks on Aligned Language Models**](https://arxiv.org/abs/2307.15043). *arXiv preprint arXiv:2307.15043*.
+* Borja Ibarz et al. (2018). [**Reward learning from human preferences and demonstrations in Atari**](https://arxiv.org/abs/1811.06521). *arXiv preprint arXiv:1811.06521*.
+* Chip Huyen. (2023). [**Reinforcement Learning from Human Feedback**](https://huyenchip.com/2023/05/02/rlhf.html). *Blog Post*.
+* Collin Burns et al. (2023). [**Weak-to-Strong Generalization: Eliciting Strong Capabilities With Weak Supervision**](https://arxiv.org/abs/2312.09390). *arXiv preprint arXiv:2312.09390*.
+* Daniel M. Ziegler et al. (2019). [**Fine-Tuning Language Models from Human Preferences**](https://arxiv.org/abs/1909.08593). *arXiv preprint arXiv:1909.08593*.
+* Denny Zhou et al. (2023). [**Least-to-Most Prompting Enables Complex Reasoning in Large Language Models**](https://arxiv.org/abs/2205.10625). *ICLR 2023*.
+* Dmitrii Volkov. (2024). [**Badllama 3: removing safety finetuning from Llama 3 in minutes**](https://arxiv.org/abs/2407.01376). *arXiv preprint arXiv:2407.01376*.
+* Dongyoung Go et al. (2024). [**Compositional Preference Models for Aligning LMs**](https://arxiv.org/abs/2310.13011). *arXiv preprint arXiv:2310.13011*.
+* Dylan Hadfield-Menell et al. (2016). [**Cooperative Inverse Reinforcement Learning**](https://arxiv.org/abs/1606.03137). *arXiv preprint arXiv:1606.03137*.
+* Evan Hubinger et al. (2019). [**Risks from Learned Optimization in Advanced Machine Learning Systems**](https://arxiv.org/abs/1906.01820). *arXiv preprint arXiv:1906.01820*.
+* Evan Hubinger. (2020). [**AI safety via market making**](https://www.alignmentforum.org/posts/YWwzccGbcHMJMpT45/ai-safety-via-market-making). *Alignment Forum*.
+* Evan Hubinger. (2020). [**An Overview of 11 Proposals for Building Safe Advanced AI**](https://arxiv.org/abs/2012.07532). *arXiv preprint arXiv:2012.07532*.
+* Geoffrey Irving, Paul Christiano, and Dario Amodei. (2018). [**AI safety via debate**](https://arxiv.org/abs/1805.00899). *arXiv preprint arXiv:1805.00899*.
+* Jan Leike et al. (2018). [**Scalable agent alignment via reward modeling: a research direction**](https://arxiv.org/abs/1811.07871). *arXiv preprint arXiv:1811.07871*.
+* Jan Leike. (2022). [**What Is Inner Alignment?**](https://aligned.substack.com/p/inner-alignment). *Aligned Blog*.
+* Javier Rando et al. (2024). [**Universal Jailbreak Backdoors from Poisoned Human Feedback**](https://arxiv.org/abs/2311.14455). *arXiv preprint arXiv:2311.14455*.
+* Jason Wei et al. (2022). [**Chain-of-Thought Prompting Elicits Reasoning in Large Language Models**](https://arxiv.org/abs/2201.11903). *arXiv preprint arXiv:2201.11903*.
+* Jeff Wu et al. (2021). [**Recursively Summarizing Books with Human Feedback**](https://arxiv.org/abs/2109.10862). *arXiv preprint arXiv:2109.10862*.
+* Jerry Wei et al. (2023). [**Simple Synthetic Data Reduces Sycophancy in Large Language Models**](https://arxiv.org/abs/2308.03958). *arXiv preprint arXiv:2308.03958*.
+* John Schulman et al. (2017). [**Proximal Policy Optimization Algorithms**](https://arxiv.org/abs/1707.06347). *arXiv preprint arXiv:1707.06347*.
+* Joseph Carlsmith. (2022). [**Is Power-Seeking AI an Existential Risk?**](https://arxiv.org/abs/2206.13353). *arXiv preprint arXiv:2206.13353*.
+* Leo Gao et al. (2022). [**Scaling Laws for Reward Model Overoptimization**](https://arxiv.org/abs/2210.10760). *arXiv preprint arXiv:2210.10760*.
+* Max Roser. (2022). [**Artificial intelligence is transforming our world - it is on all of us to make sure that it goes well**](https://ourworldindata.org/ai-impact). *Our World in Data*.
+* Mrinank Sharma et al. (2023). [**Towards Understanding Sycophancy in Language Models**](https://arxiv.org/abs/2310.13548). *arXiv preprint arXiv:2310.13548*.
+* Nate Soares. (2015). [**Four Background Claims**](https://intelligence.org/2015/07/24/four-background-claims/). *MIRI Blog*.
+* Nate Soares. (2022). [**A Central AI Alignment Problem: Capabilities Generalization and the Sharp Left Turn**](https://www.alignmentforum.org/posts/GNhMPAWcfBCASy8e6/a-central-ai-alignment-problem-capabilities-generalization). *Alignment Forum*.
+* Nick Bostrom. (2012). [**The Superintelligent Will: Motivation and Instrumental Rationality in Advanced Artificial Agents**](https://nickbostrom.com/superintelligentwill.pdf). *Minds and Machines*.
+* Nick Bostrom. (2014). [**Superintelligence: Paths, Dangers, Strategies**](https://global.oup.com/academic/product/superintelligence-9780199678112). *Oxford University Press*.
+* Nisan Stiennon et al. (2020). [**Learning to summarize from human feedback**](https://arxiv.org/abs/2009.01325). *arXiv preprint arXiv:2009.01325*.
+* Ought Research. (2018). [**Factored Cognition**](https://ought.org/research/factored-cognition). *Ought*.
+* Paul Christiano et al. (2017). [**Deep Reinforcement Learning from Human Preferences**](https://arxiv.org/abs/1706.03741). *arXiv preprint arXiv:1706.03741*.
+* Paul Christiano et al. (2018). [**Supervising strong learners by amplifying weak experts**](https://arxiv.org/abs/1810.08575). *arXiv preprint arXiv:1810.08575*.
+* Paul Christiano. (2015). [**The Easy Goal Inference Problem Is Still Hard**](https://ai-alignment.com/the-easy-goal-inference-problem-is-still-hard-fad030e0a876). *AI Alignment Blog*.
+* Paul Christiano. (2019). [**What failure looks like**](https://www.alignmentforum.org/posts/HBxe6wdjxK239zajf/what-failure-looks-like). *Alignment Forum*.
+* Paul Christiano. (2022). [**Eliciting Latent Knowledge**](https://docs.google.com/document/d/1WwsnJQstPq91_Yh-Ch2XRL8H_EpsnjrC1dwZXR37PC8/edit). *Alignment Research Center*.
+* Paul Christiano. (2023). [**Thoughts on the impact of RLHF research**](https://www.alignmentforum.org/posts/vwu4kegAEZTBtpT6p/thoughts-on-the-impact-of-rlhf-research). *Alignment Forum*.
+* Rafael Rafailov et al. (2024). [**Direct Preference Optimization: Your Language Model is Secretly a Reward Model**](https://arxiv.org/abs/2305.18290). *arXiv preprint arXiv:2305.18290*.
+* Richard Ngo et al. (2024). [**The Alignment Problem from a Deep Learning Perspective**](https://arxiv.org/abs/2209.00626). *arXiv preprint arXiv:2209.00626*.
+* Richard Ngo. (2020). [**AGI Safety From First Principles**](https://www.alignmentforum.org/posts/fRsjBseRuvRhMPPE5/an-overview-of-11-proposals-for-building-safe-advanced-ai). *Alignment Forum*.
+* Rishi Bommasani et al. (2022). [**On the Opportunities and Risks of Foundation Models**](https://arxiv.org/abs/2108.07258). *arXiv preprint arXiv:2108.07258*.
+* Robert Miles. (2019). [**How to Keep Improving When You’re Better Than Any Teacher**](https://www.youtube.com/watch?v=v9M2Ho9I9Qo). *Computerphile*.
+* Robert Miles. (2020). [**Intro to AI Safety**](https://www.youtube.com/watch?v=pYXy-A4siMw). *Robert Miles AI Safety*.
+* Robert Miles. (2024). [**The True Story of How GPT-2 Became Maximally Lewd**](https://www.youtube.com/watch?v=qV_rOlHjvvs). *Robert Miles AI Safety*.
+* Rohin Shah et al. (2022). [**Goal Misgeneralisation: Why Correct Specifications Aren't Enough For Correct Goals**](https://arxiv.org/abs/2210.01790). *arXiv preprint arXiv:2210.01790*.
+* Sam Harris and Eliezer Yudkowsky. (2018). [**AI: Racing Toward the Brink**](https://intelligence.org/2018/02/28/sam-harris-and-eliezer-yudkowsky/). *MIRI Blog*.
+* Samuel Bowman et al. (2022). [**Measuring Progress on Scalable Oversight for Large Language Models**](https://arxiv.org/abs/2211.03540). *arXiv preprint arXiv:2211.03540*.
+* Stephanie Lin et al. (2022). [**TruthfulQA: Measuring How Models Mimic Human Falsehoods**](https://arxiv.org/abs/2109.07958). *arXiv preprint arXiv:2109.07958*.
+* Stephen Casper et al. (2023). [**Open Problems and Fundamental Limitations of Reinforcement Learning from Human Feedback**](https://arxiv.org/abs/2307.15217). *arXiv preprint arXiv:2307.15217*.
+* Stuart Armstrong et al. (2017). [**Occam’s razor is insufficient to infer the preferences of irrational agents**](https://arxiv.org/abs/1712.05812). *arXiv preprint arXiv:1712.05812*.
+* Xander Steenbrugge. (2018). [**An introduction to Policy Gradient methods**](https://www.youtube.com/watch?v=5P7I-xPq8u8). *Arxiv Insights*.
+* Xuezhi Wang et al. (2022). [**Self-Consistency Improves Chain of Thought Reasoning in Language Models**](https://arxiv.org/abs/2203.11171). *arXiv preprint arXiv:2203.11171*.
+* Yifan Zhang et al. (2025). [**Beyond Bradley-Terry Models: A General Preference Model for Language Model Alignment**](https://arxiv.org/abs/2410.02197). *arXiv preprint arXiv:2410.02197*.
+* Yuntao Bai et al. (2022). [**Constitutional AI: Harmlessness from AI Feedback**](https://arxiv.org/abs/2212.08073). *arXiv preprint arXiv:2212.08073*.
